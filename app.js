@@ -60,8 +60,9 @@ function submit() {
             e.classList.replace("per", "psu")
         }
         else {
+            document.getElementById("emailerror").textContent = "Email Verification completed"
             emailid.classList.add("addsu")
-            e.classList.replace("per", "psu")
+            e.classList.add("psu")
         }
     }
 
