@@ -137,6 +137,9 @@ body{
 .form{
     padding-bottom: 10px;
 }
+    form{
+        padding:40px 60px;
+    }   
 }
 
 
